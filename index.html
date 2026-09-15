@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Eurodays 90 — Schengen 90/180-Day Rule Calculator</title>
+  <meta name="description" content="Eurodays 90 tracks your Schengen 90/180-day allowance in real time: days remaining, when you can legally return, and a full stay log — private, offline, and exact." />
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 120 120'%3E%3Ccircle cx='60' cy='60' r='58' fill='%23071A44'/%3E%3Cpath d='M0 -1L.24 -.31.97 -.31.38 .12.59 .81 0 .38-.59 .81-.38 .12-.97 -.31-.24 -.31Z' fill='%23FFCC00' transform='translate(60 60) scale(26)'/%3E%3C/svg%3E" />
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="wrap nav">
+      <a class="brand" href="index.html" aria-label="Eurodays 90 home">
+        <svg width="30" height="30" viewBox="-60 -60 120 120" aria-hidden="true">
+          <circle r="56" fill="#0A1B45" stroke="#3355B8" stroke-opacity="0.5"/>
+          <g fill="#FFCC00">
+            <path d="M0 -1L.24 -.31.97 -.31.38 .12.59 .81 0 .38-.59 .81-.38 .12-.97 -.31-.24 -.31Z" transform="rotate(0) translate(0 -44) scale(5)"/>
+            <path d="M0 -1L.24 -.31.97 -.31.38 .12.59 .81 0 .38-.59 .81-.38 .12-.97 -.31-.24 -.31Z" transform="rotate(30) translate(0 -44) scale(5)"/>
+            <path d="M0 -1L.24 -.31.97 -.31.38 .12.59 .81 0 .38-.59 .81-.38 .12-.97 -.31-.24 -.31Z" transform="rotate(60) translate(0 -44) scale(5)"/>
+            <path d="M0 -1L.24 -.31.97 -.31.38 .12.59 .81 0 .38-.59 .81-.38 .12-.97 -.31-.24 -.31Z" transform="rotate(90) translate(0 -44) scale(5)"/>
+            <path d="M0 -1L.24 -.31.97 -.31.38 .12.59 .81 0 .38-.59 .81-.38 .12-.97 -.31-.24 -.31Z" transform="rotate(120) translate(0 -44) scale(5)"/>
+            <path d="M0 -1L.24 -.31.97 -.31.38 .12.59 .81 0 .38-.59 .81-.38 .12-.97 -.31-.24 -.31Z" transform="rotate(150) translate(0 -44) scale(5)"/>
+            <path d="M0 -1L.24 -.31.97 -.31.38 .12.59 .81 0 .38-.59 .81-.38 .12-.97 -.31-.24 -.31Z" transform="rotate(180) translate(0 -44) scale(5)"/>
+            <path d="M0 -1L.24 -.31.97 -.31.38 .12.59 .81 0 .38-.59 .81-.38 .12-.97 -.31-.24 -.31Z" transform="rotate(210) translate(0 -44) scale(5)"/>
+            <path d="M0 -1L.24 -.31.97 -.31.38 .12.59 .81 0 .38-.59 .81-.38 .12-.97 -.31-.24 -.31Z" transform="rotate(240) translate(0 -44) scale(5)"/>
+            <path d="M0 -1L.24 -.31.97 -.31.38 .12.59 .81 0 .38-.59 .81-.38 .12-.97 -.31-.24 -.31Z" transform="rotate(270) translate(0 -44) scale(5)"/>
+            <path d="M0 -1L.24 -.31.97 -.31.38 .12.59 .81 0 .38-.59 .81-.38 .12-.97 -.31-.24 -.31Z" transform="rotate(300) translate(0 -44) scale(5)"/>
+            <path d="M0 -1L.24 -.31.97 -.31.38 .12.59 .81 0 .38-.59 .81-.38 .12-.97 -.31-.24 -.31Z" transform="rotate(330) translate(0 -44) scale(5)"/>
+          </g>
+          <text x="0" y="6" text-anchor="middle" font-size="26" font-weight="800" fill="#FFCC00" font-family="inherit">90</text>
+        </svg>
+        Eurodays&nbsp;90
+      </a>
+      <nav class="nav-links" aria-label="Main">
+        <a href="#features">Features</a>
+        <a href="privacy.html">Privacy Policy</a>
+        <a href="terms.html">Terms of Service</a>
+        <a class="btn btn-primary btn-sm" href="#download">Get the app</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- ============ HERO ============ -->
+    <section class="wrap hero">
+      <div>
+        <span class="eyebrow">Schengen 90/180 rule, made exact</span>
+        <h1>Know exactly how many <span class="num">Schengen days</span> you have left.</h1>
+        <p class="lede">
+          Eurodays 90 computes your rolling 180-day window the way border officers apply it —
+          days remaining, your compliance status, and the earliest legal return date, readable at a glance.
+        </p>
+        <div class="hero-actions">
+          <span class="btn btn-disabled" aria-disabled="true" title="Coming soon to the App Store">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.05 12.54c-.03-2.89 2.36-4.27 2.47-4.34-1.35-1.97-3.44-2.24-4.18-2.27-1.78-.18-3.47 1.05-4.37 1.05-.9 0-2.29-1.02-3.77-.99-1.94.03-3.73 1.13-4.72 2.86-2.02 3.5-.52 8.68 1.45 11.52.96 1.39 2.1 2.95 3.6 2.89 1.45-.06 2-.93 3.75-.93s2.25.93 3.78.9c1.56-.03 2.55-1.41 3.5-2.81 1.1-1.61 1.56-3.17 1.58-3.25-.03-.02-3.04-1.17-3.09-4.63zM14.16 4.06c.79-.96 1.33-2.29 1.18-3.62-1.14.05-2.53.76-3.35 1.72-.73.85-1.38 2.21-1.21 3.51 1.28.1 2.58-.65 3.38-1.61z"/></svg>
+            App Store — Coming Soon
+          </span>
+          <a class="btn btn-ghost" href="https://yoq1tfhw5bp4idw006ls3-web-schengen-90-download.rork.live" rel="noopener">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3v12"/><path d="m7 10 5 5 5-5"/><path d="M5 21h14"/></svg>
+            Get it on Android
+          </a>
+        </div>
+        <div class="trust-line">
+          <span><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg>No account</span>
+          <span><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg>Works fully offline</span>
+          <span><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg>Your data never leaves your phone</span>
+        </div>
+      </div>
+
+      <div class="phones" aria-label="App screenshots" role="img">
+        <!-- Today screen mock -->
+        <div class="phone">
+          <div class="notch"></div>
+          <div class="date">Monday, 15 September 2026<strong>Window: 20 Mar — 14 Sep 2026</strong></div>
+          <div class="tiles">
+            <div class="tile"><div class="label">Days remaining</div><div class="value accent">63</div></div>
+            <div class="tile"><div class="label">Days used</div><div class="value">27</div></div>
+          </div>
+          <div class="allowance">
+            <div class="row"><span>0</span><span>75</span><span>90</span></div>
+            <div class="bar"><div class="fill"></div></div>
+          </div>
+          <span class="chip">● Compliant — 27 of 90</span>
+          <div class="quick"><div>＋ Stay</div><div>Custom date</div><div>Planner</div></div>
+          <div class="stay-row"><span><b>Lisbon, Portugal</b><br>12 Jun → 26 Jun</span><span class="days">15 d</span></div>
+          <div class="stay-row"><span><b>Prague, Czechia</b><br>3 Aug → 14 Aug</span><span class="days">12 d</span></div>
+        </div>
+
+        <!-- Planner screen mock -->
+        <div class="phone">
+          <div class="notch"></div>
+          <div class="date">When can I return?<strong>Planned stay: 30 days, not before 20 Oct</strong></div>
+          <div class="result-card">
+            <div class="cap">Earliest legal entry</div>
+            <div class="ring-wrap">
+              <svg width="108" height="108" viewBox="0 0 108 108" aria-hidden="true">
+                <circle cx="54" cy="54" r="47" fill="none" stroke="#0A1B45" stroke-width="7"/>
+                <circle cx="54" cy="54" r="47" fill="none" stroke="#FFCC00" stroke-width="7" stroke-linecap="round"
+                        stroke-dasharray="295.3" stroke-dashoffset="72" transform="rotate(-90 54 54)"/>
+              </svg>
+              <div class="center"><strong>14 Oct</strong><small>2026</small></div>
+            </div>
+            <div class="big">30 days</div>
+            <div class="sub">Exit by 12 Nov 2026 · every day verified ✓</div>
+          </div>
+          <div class="stay-row"><span><b>Safe Exit Projection</b><br>Leave on or before</span><span class="days">12 Nov</span></div>
+          <div class="stay-row"><span><b>If you stay longer</b><br>First breaching date</span><span class="days" style="color:#FF453A">13 Nov</span></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ RULE BANNER ============ -->
+    <section class="rule-banner">
+      <div class="wrap">
+        <p><strong>The rule, in one line.</strong> You may spend at most <span class="num">90</span> days inside the
+        Schengen Area in any rolling <span class="num">180</span>-day window. Eurodays 90 tracks that window for you — every day, on both platforms.</p>
+      </div>
+    </section>
+
+    <!-- ============ FEATURES ============ -->
+    <section class="wrap features" id="features">
+      <div class="section-head">
+        <h2>Everything you need to stay compliant</h2>
+        <p>Built for frequent travellers, digital nomads, and anyone whose visa-free time is counted — not guessed.</p>
+      </div>
+
+      <div class="feature-grid">
+        <div class="feature hero-feature">
+          <div class="icon" aria-hidden="true">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="2" width="16" height="20" rx="2"/><line x1="8" y1="6" x2="16" y2="6"/><line x1="8" y1="11" x2="8" y2="11.01"/><line x1="12" y1="11" x2="12" y2="11.01"/><line x1="16" y1="11" x2="16" y2="11.01"/><line x1="8" y1="15" x2="8" y2="15.01"/><line x1="12" y1="15" x2="12" y2="15.01"/><line x1="16" y1="15" x2="16" y2="15.01"/></svg>
+          </div>
+          <h3>The 90/180-day calculator</h3>
+          <p>A live count of your remaining allowance, recomputed from the rolling 180-day window that border authorities actually apply — not a simple counter. Days remaining, days used, and your compliance zone at a glance.</p>
+          <span class="tag">Core feature</span>
+        </div>
+
+        <div class="feature">
+          <div class="icon" aria-hidden="true">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polygon points="16.24 7.76 14.12 14.12 7.76 16.24 9.88 9.88 16.24 7.76"/></svg>
+          </div>
+          <h3>"When can I return?" planner</h3>
+          <p>Enter a trip length and a not-before date. Eurodays 90 names the earliest legal entry date and your exit-by date — and verifies every single day in the range, warning you of the first date a stay would breach 90.</p>
+        </div>
+
+        <div class="feature">
+          <div class="icon" aria-hidden="true">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><line x1="8" y1="6" x2="21" y2="6"/><line x1="8" y1="12" x2="21" y2="12"/><line x1="8" y1="18" x2="21" y2="18"/><line x1="3" y1="6" x2="3.01" y2="6"/><line x1="3" y1="12" x2="3.01" y2="12"/><line x1="3" y1="18" x2="3.01" y2="18"/></svg>
+          </div>
+          <h3>Full stay log</h3>
+          <p>Every trip grouped by year with past / current / future status, search, and filters — with a compliance summary for the whole year and exact counted days for each stay.</p>
+        </div>
+
+        <div class="feature">
+          <div class="icon" aria-hidden="true">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="18" rx="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/><circle cx="12" cy="16" r="2.4"/></svg>
+          </div>
+          <h3>Custom-date check</h3>
+          <p>Pick any date — past or future — and see how many days were used, how many were left, and your compliance status for that day's 180-day window, with a per-stay breakdown.</p>
+        </div>
+
+        <div class="feature">
+          <div class="icon" aria-hidden="true">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><line x1="4" y1="9" x2="20" y2="9"/><line x1="4" y1="15" x2="20" y2="15"/><line x1="10" y1="3" x2="8" y2="21"/><line x1="16" y1="3" x2="14" y2="21"/></svg>
+          </div>
+          <h3>Built on exact math</h3>
+          <p>All tallies use integer UTC day arithmetic — immune to time zones, daylight-saving shifts, and month-length quirks. Both your entry and exit day always count, exactly as the rule requires.</p>
+        </div>
+
+        <div class="feature">
+          <div class="icon" aria-hidden="true">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+          </div>
+          <h3>Private by design</h3>
+          <p>No account, no sync, no network calls. Your stays live on your device alone and never leave it — export them as CSV anytime for backup or your own records.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ CTA ============ -->
+    <section class="wrap cta" id="download">
+      <div class="cta-card">
+        <h2>Travel with certainty, not guesswork</h2>
+        <p>Stop recalculating windows by hand at 11pm before a flight. Eurodays 90 keeps your allowance current, every single day.</p>
+        <div class="cta-actions">
+          <span class="btn btn-disabled" aria-disabled="true" title="Coming soon to the App Store">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.05 12.54c-.03-2.89 2.36-4.27 2.47-4.34-1.35-1.97-3.44-2.24-4.18-2.27-1.78-.18-3.47 1.05-4.37 1.05-.9 0-2.29-1.02-3.77-.99-1.94.03-3.73 1.13-4.72 2.86-2.02 3.5-.52 8.68 1.45 11.52.96 1.39 2.1 2.95 3.6 2.89 1.45-.06 2-.93 3.75-.93s2.25.93 3.78.9c1.56-.03 2.55-1.41 3.5-2.81 1.1-1.61 1.56-3.17 1.58-3.25-.03-.02-3.04-1.17-3.09-4.63zM14.16 4.06c.79-.96 1.33-2.29 1.18-3.62-1.14.05-2.53.76-3.35 1.72-.73.85-1.38 2.21-1.21 3.51 1.28.1 2.58-.65 3.38-1.61z"/></svg>
+            App Store — Coming Soon
+          </span>
+          <a class="btn btn-primary" href="https://yoq1tfhw5bp4idw006ls3-web-schengen-90-download.rork.live" rel="noopener">Download for Android</a>
+        </div>
+        <p class="cta-note">Android is available now via direct APK download. The iOS release is in review — check back soon.</p>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <div class="foot">
+        <span>© 2026 Eurodays 90. All rights reserved.</span>
+        <nav class="foot-links" aria-label="Legal">
+          <a href="privacy.html">Privacy Policy</a>
+          <a href="terms.html">Terms of Service</a>
+        </nav>
+      </div>
+      <p class="disclaimer">Eurodays 90 is an independent tool and is not affiliated with, endorsed by, or operated on behalf of the European Union or any Schengen state. It provides informational estimates of the 90/180-day rule and does not constitute legal or immigration advice. Always confirm your status with the relevant border or consular authorities.</p>
+    </div>
+  </footer>
+
+</body>
+</html>
